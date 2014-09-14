@@ -1,0 +1,35 @@
+CREATE TABLE youngclass.student 
+(
+  
+  id int unsigned NOT NULL,
+  addyear varchar(20) NULL,
+  name varchar(30) NOT NULL,
+  class varchar(10) NULL,  
+  gender char(2) NOT NULL, 
+  school varchar(20) NULL,
+  grade varchar(10) NULL,
+  birthday datetime NULL,
+  identity_no varchar(12) NULL,  
+  home_tel varchar(15) NOT NULL,
+  main_contact varchar(30) NOT NULL,
+  main_relation varchar(10) NOT NULL,
+  bw_class varchar(20) NULL,
+  main_mobile varchar(12) NOT NULL,
+  sub_contact varchar(30) NULL,
+  sub_relation varchar(10) NULL,
+  sub_bw_class varchar(20) NULL,
+  sub_mobile varchar(30) NULL,
+  address varchar(100) NULL,
+  location varchar(10) NULL,
+  email varchar(40) NULL,
+  contact_time varchar(50) NULL,
+  group_name varchar(30) NULL,
+  class_room varchar(10) NULL,
+  pic_name VARCHAR(64) NULL,
+  pic_size MEDIUMINT UNSIGNED NULL,
+  pic MEDIUMBLOB NULL,  
+  memo varchar(300) NULL,  
+  updatetime datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,    
+  PRIMARY KEY (id)
+) 
+ENGINE=MyISAM AUTO_INCREMENT=4080 DEFAULT CHARSET=big5;
